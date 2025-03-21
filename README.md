@@ -3,12 +3,6 @@
 
 Repo ini berisi proyek percobaan saya dalam mempelajari React.js dari awal.
 
-## 📌 Teknologi yang Digunakan
-- React.js
-- JavaScript (ES6+)
-- Vite
-- CSS / Tailwind CSS
-
 ## 🚀 Cara Menjalankan Project
 1. Clone repo ini:
    ```sh
@@ -40,5 +34,3 @@ git add README.md
 git commit -m "Add README"
 git push origin main  # Sesuaikan dengan branch utama repo
 ```
-
-Coba dulu, kalau ada yang mau ditambah atau diubah, kasih tahu aja! 🚀
