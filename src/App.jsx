@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Search from "./components/Search.jsx";
 import Spinner from "./components/Spinner.jsx";
 import MovieCard from "./components/MovieCard.jsx";
+import { updateSearchCount } from "./appWrite.js";
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
 
@@ -41,6 +42,10 @@ const App = () => {
         return;
       }
       setMovieList(data.results || []);
+
+      if (quary && data.results.length > 0) {
+        await updateSearchCount(quary, data.results[0]);
+      }
     } catch (error) {
       console.error(`Error fertching movies: ${error}`);
       setErrorMessage("Error fetching movie. Please try again later.");
