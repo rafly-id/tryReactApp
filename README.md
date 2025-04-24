@@ -1,13 +1,13 @@
 ```md
-# tryReactApp 🚀
+# tryMovieApp 🚀
 
-Repo ini berisi proyek percobaan saya dalam mempelajari React.js dari awal.
+Repo ini berisi proyek percobaan saya dalam mempelajari React.js dari awal, menggunakan Vite untuk build tool dan TMDB API untuk mendapatkan data film.
 
 ## 🚀 Cara Menjalankan Project
 1. Clone repo ini:
    ```sh
-   git clone https://github.com/rafly-id/tryReactApp.git
-   cd tryReactApp
+   git clone https://github.com/rafly-id/rafly_id_tryMovieApp.git
+   cd rafly_id_tryMovieApp
    ```
 2. Install dependensi:
    ```sh
@@ -18,19 +18,18 @@ Repo ini berisi proyek percobaan saya dalam mempelajari React.js dari awal.
    npm run dev
    ```
 
+## 🔐 Environment Variables
+Buat file `.env.local` di direktori root dan masukkan variabel berikut:
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key
+```
+
 ## 💡 Catatan
-Repo ini dibuat untuk latihan dan eksplorasi dalam belajar React.js dan akan terus diperbarui
+Repo ini dibuat untuk latihan dan eksplorasi dalam belajar React.js.
 
 ---
 
-🔥 **Made by [rafly-id](https://github.com/rafly-id)**  
+🔥 **Made by [rafly-id](https://github.com/rafly-id)**
 ```
 
-Tambahkan README ini ke repo dengan perintah:  
-```sh
-echo "# tryReactApp 🚀" > README.md
-nano README.md  # Edit jika perlu
-git add README.md
-git commit -m "Add README"
-git push origin main  # Sesuaikan dengan branch utama repo
-```
+Ganti `your_tmdb_api_key` dengan nilai yang sesuai.
